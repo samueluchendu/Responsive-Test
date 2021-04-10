@@ -373,8 +373,8 @@
                                 padding: 3px;
                             }
                             .menuBar {
-                                height: 3vh;
-                                width: 5vw;
+                                height: 10%;
+                                width: 20%;
                                 cursor: pointer;
                                 display: block;
                                 margin-right: -50px;
@@ -387,12 +387,12 @@
                                 margin-top: -100px;
                             }
                             div.hero-content-heading h3 {
-                                font-size: 120%;
-                                width: 150px;
+                                font-size: 100%;
+                                width: 500%;
                                 text-align: center;
                             }
                             div.hero-content-heading p {
-                                font-size: 3.5vw;
+                                font-size: 3vw;
                                 width: 300px;
                             }
                             div.hero-content-btn {
@@ -405,19 +405,19 @@
                                 letter-spacing: 5px;
                             }
                             div.background {
-                                height: 315px;
+                                height: 315%;
                             }
                             div.background p {
                                 letter-spacing: 2px;
                                 font-size: 3.5vw;
-                                width: 250px;
+                                width: 100%;
                             }
                             div.hero-background-pos {
                                 display: none;
                             }
                             div.snapshot-team p {
                                 font-size: 4vw;
-                                width: 350px;
+                                width: 100%;
                             }
                             div.snapshot-box-content {
                                 display: flex;
@@ -427,14 +427,15 @@
                             div.box1 {
                                 width: 100%;
                             }
-                            /* div.box3 {
+                            div.box3 {
                                 background: #304353;
                                 padding: 10px 20px;
                                 height: 230px;
                                 margin: 10px;
                                 border-radius: 2px;
                                 box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
-                            } */
+                                /* width: 120%; */
+                            }
                             div.footer-input {
                                 flex-direction: column;
                             }
@@ -447,18 +448,10 @@
                                 width: 75vw;
                             }
                             div.footer-btn {
-                                width: 75vw;
+                                width: 100%;
+                                text-align: center;
                             }
                             div.footer-btn a {
                                 font-size: 3vw;
                             }
                         }
-                        /* Responsive for Small Screen */
-                        /* @media only screen and (max-width: 600px) {
-                            div.hero-content-btn {
-                                width: 40vw;
-                            }
-                            div.hero-content-btn a {
-                                font-size: 3vw;
-                            }
-                        } */
